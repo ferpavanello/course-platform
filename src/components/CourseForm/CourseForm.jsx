@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Button, TextField, Typography, Container } from '@material-ui/core'
-import './CourseForm.css'
 
 class CourseForm extends Component {
   constructor() {
@@ -37,7 +36,7 @@ class CourseForm extends Component {
 
   render() {
     return (
-      <Container className="formContainer" component="article" maxWidth="sm">
+      <Container className="form-container" component="article" maxWidth="sm">
         <Typography variant="h3" component="h1" align="center">
           Register Course
         </Typography>

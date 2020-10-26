@@ -1,0 +1,10 @@
+aside.menu-area {
+  background-color: #294452;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}

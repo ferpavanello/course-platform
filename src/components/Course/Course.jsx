@@ -5,7 +5,7 @@ import { Container } from '@material-ui/core'
 
 function Course() {
   return (
-    <Container component="article" maxWidth="lg">
+    <Container component="article" maxWidth="lg" className="content">
       <CourseForm />
       <CourseList />
     </Container>
