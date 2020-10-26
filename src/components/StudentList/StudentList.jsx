@@ -28,7 +28,7 @@ class StudentList extends Component {
   }
 
   getCourseFromApi() {
-    return fetch('http://localhost:3333/student')
+    return fetch('https://fernando-course-api.herokuapp.com/student')
       .then((res) => res.json())
       .then(items => {
         const newItems = items.map(item => {

@@ -14,7 +14,7 @@ class CourseForm extends Component {
 
   saveCourse(event) {
     event.preventDefault()
-    fetch('http://localhost:3333/course', {
+    fetch('https://fernando-course-api.herokuapp.com/course', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
